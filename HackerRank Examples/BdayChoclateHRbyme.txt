@@ -1,0 +1,25 @@
+function birthday(s, d, m) {
+
+		let i=0,j,cc,res,sum=0;
+    let count=0,sum1=0;
+    for(i=0;i<s.length;i++)
+    {
+      if(s[i] <= d)
+      {
+       sum += s[i];
+       if(sum == d)
+        {
+       	 	count++;
+        }
+  
+      }
+      else break;
+
+    }
+		console.log(count);
+}
+
+let  s = [4];
+let d=4,m=1;
+
+birthday(s,d,m);s

@@ -1,0 +1,27 @@
+function bonAppetit(bill, k, b) {
+	
+  let i,sum=0,sum2=0,div;
+  for(i=0;i<bill.length;i++)
+  {
+  		sum += bill[i] 
+  }
+  sum2 = sum - bill[k];
+  div = sum2 / 2;
+  
+  if(div == b)
+  {
+  	alert("Bon Appetit");
+  }
+  else{
+  				let res = b - div;
+          alert(res);
+  		
+      }
+
+}
+
+
+let k = 1,b = 7;
+let bill = [3,10, 2, 9];
+
+bonAppetit(bill,k,b);

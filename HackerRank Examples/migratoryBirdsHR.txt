@@ -1,0 +1,22 @@
+function migratoryBirds(arr) {
+
+let na,max,i,j,count;
+for(i=0;i<arr.length;i++)
+{
+	count=0;
+	for(j=i+1;j<arr.length;j++)
+  {
+  		if(arr[i]==arr[j])
+      {
+        na=arr[i];
+        count++;
+      }
+  }
+}
+alert(na)
+
+}
+
+
+let arr = [1,4,2, 3, 4, 5, 4, 3, 2, 1, 3,4];
+migratoryBirds(arr);

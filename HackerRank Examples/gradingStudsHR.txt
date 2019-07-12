@@ -1,0 +1,25 @@
+let grades = [60,64,4,68,14,53,84];
+
+
+let compute = (grades) => {
+
+		let i;
+    for(i=0;i<grades.length;i++)
+    {
+    
+    		if(grades[i] % 5 == 3 || grades[i] % 5 == 4 )
+        { 
+    				if(grades[i] > 37)
+            {
+          	let add = 5 - (grades[i] % 5);
+            grades[i] += add;
+          	
+            }
+        }
+        
+    
+    }
+			console.log(grades);
+}
+
+compute(grades);

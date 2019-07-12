@@ -1,0 +1,21 @@
+function birth(){
+
+		let max,count=0;
+  
+    max = Math.max.apply(null, ar);
+   
+    alert(max);
+    for(let i=0; i<ar.length; i++ )
+    {
+    	if(ar[i]==max)
+      {
+      count ++;
+      
+      }
+      
+    }
+     alert(count);
+}
+
+let ar = [12,49,82,82,41,82,15,63,38,25];
+birth(ar);

@@ -1,0 +1,16 @@
+<script>
+// Edit your script here
+function modifyArray(nums) {
+    nums.forEach((item, index, array) => {
+        if (item % 2 == 0) array[index] = item * 2
+        else
+            array[index] = item * 3;
+    });
+    
+     
+}
+
+let nums = [1,2,3,4,5];
+modifyArray(nums);
+alert(nums);
+</script>

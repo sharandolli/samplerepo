@@ -1,0 +1,24 @@
+<script>
+// Edit your script here
+let max=0;
+let maxname = null; 
+let topsal = (salaries) => {
+		for(let [name,sal] of Object.entries(salaries))
+                {
+  						if(max < sal){
+                                                 max = sal;
+                                                 maxname = name;
+                                                 }
+                       
+                } return max ;
+                }
+
+let salaries = {
+  "John": 100,
+  "Pete": 50,
+  "Mary": 250
+};
+
+alert(topsal(salaries));
+
+</script>

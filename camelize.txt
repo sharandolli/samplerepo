@@ -1,0 +1,1 @@
+let camelize = str => (arr => arr.reduce((a, b) => a + (b[0].toUpperCase() + b.substr(1))))(str.split('-'))

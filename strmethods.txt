@@ -1,0 +1,13 @@
+<script>
+
+function strfunc(str) {
+alert(str.includes("Sim"));
+alert(str.startsWith("lig"));
+alert(str.endsWith("st!"));
+alert(str.substring(0,13));
+alert(str.substr(8,9));
+alert(str.repeat(3));
+
+}
+str= "Edit your code online. Simple, light and fast!";
+strfunc(str);

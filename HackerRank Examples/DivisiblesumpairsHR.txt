@@ -1,0 +1,21 @@
+function divisibleSumPairs(n, k, ar) {
+
+    let i, j, count = 0, count1 = 0;
+
+    for (i = 0; i < ar.length; i++) {
+        for (j = i + 1; j < ar.length; j++) {
+        		
+            if ((ar[i] + ar[j]) % k == 0) {
+                count++;
+            }
+
+        }
+
+    }alert(ar[j]);
+    return (count);
+}
+
+let n=6,k=3;
+let ar=[1,3,2,6,1,2];
+
+alert(divisibleSumPairs(n,k,ar));

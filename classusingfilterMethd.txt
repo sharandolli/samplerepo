@@ -1,0 +1,17 @@
+<script>
+// Edit your script here
+
+class powerarr extends Array {
+	isEmpty(){
+    	return this.length === 0;
+        }
+}
+
+let arr = new powerarr(2,4,7,88,3,55,77,67,100);
+alert(arr.isEmpty());
+
+let filter = arr.filter(item => item >= 100);
+alert(filter);
+alert(filter.isEmpty());
+
+</script>

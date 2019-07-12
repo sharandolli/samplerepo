@@ -1,0 +1,22 @@
+<script>
+// Edit your script here
+ let animal = { age : 21 ,
+ 				name : "Lion",
+                walk() {
+                		alert(`Inside Walk : ${this.name} ,, ${this.age} is walking`);
+                        }
+               };
+               
+    let Tiger = {
+    age : 11,
+    name : "tig",
+    __proto__ : animal};
+    
+    
+    let animal1 = { age :61 ,
+ 				name : "sher",
+             	__proto__ : Tiger
+               };
+    animal1.walk();
+</script>
+<!-- edit your html here -->
